@@ -20,7 +20,7 @@ Vue.createApp({
       return { width: this.monsterHealth + '%' };
     },
     playerBarStyles() {
-      if (this.playerHealth < 0) {s
+      if (this.playerHealth < 0) {
         return { width: '0%' };
       }
       return { width: this.playerHealth + '%' };
